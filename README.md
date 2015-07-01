@@ -2,7 +2,7 @@
 
 Run the server 
 
-* `docker run -p 8080:80 -d -v /path/to/conf.d:/etc/munin/munin-conf.d -v /path/to/access:/etc/munin-access --name munin-server munin-server`
+* `docker run -p 8080:80 -d -v /path/to/conf.d:/etc/munin/munin-conf.d -v /path/to/access:/etc/munin-access --name munin-server maxwayt/munin-server`
 
 To manage create the htpasswd file
 
